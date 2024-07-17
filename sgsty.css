@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/807/415/large_2x/abstract-blur-shopping-mall-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+form {
+    text-align: center;
+    margin: 45%;
+    width: 400px;
+    padding: 100px 100px;
+    background: goldenrod;
+}
+
+label {
+    color: black;
+    font-size: 20px;
+}
+
+div {
+    color: black;
+    margin: 10px;
+}

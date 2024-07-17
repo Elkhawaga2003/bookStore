@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/807/415/large_2x/abstract-blur-shopping-mall-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: goldenrod;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 40px;
+    color: rgb(10, 10, 10);
+}
+
+nav a {
+    position: relative;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+nav a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(1, 1, 1);
+}
+
+nav a:hover::before {
+    width: 100%;
+    transition: .4s;
+}
